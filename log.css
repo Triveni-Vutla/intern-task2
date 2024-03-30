@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    margin:0;
+    background-color: bisque;
+    font-weight: 400;
+    font-size: x-large;
+
+}
+.container{
+    width: 400px;
+    padding: 30px;
+    background-color:rgb(244, 173, 234);
+    border-style: solid dotted;
+
+}
+h1{
+    text-align:center ;
+    color: blue;
+
+}
+label{
+    display: block;
+    color: rgb(144, 43, 226);
+}
+button{
+    color:deeppink;
+    cursor: pointer;
+    width:100;
+    height:40;
+    border: 2px;
+    bottom: 40px;
+    background-color: dodgerblue;
+    margin-top:20px;
+}
+button:hover{
+    background-color:rgb(35, 215, 104);
+}
+#error-message{
+    color: darkred;
+    text-align: center;
+    margin: top 10px; ;
+    font-size: 50px;
+
+
+}
